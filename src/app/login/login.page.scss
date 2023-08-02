@@ -1,0 +1,165 @@
+.card-center{
+    width:90%; // adjust width on your ion-card suitable on your screen
+    display:block;
+    margin: 25px auto;
+}
+
+ion-icon{
+    padding-right: 7px;
+    font-size: 22px;
+    color: white;
+    transform:translateY(23%);
+}
+
+ion-label{
+    font-size: 20px;
+    padding-bottom: 5px;
+    // color: "dark";
+}
+
+#logoLogIn{
+
+    font-size: 24px;
+    color: #ffffff;
+    transform:translateY(1%);
+}
+
+ion-button{
+    margin-top: 18px;
+    box-shadow: 1px 8px 8px 0px rgba(255, 255, 255, 0.2);
+    // --background-color: red;
+    --background: #3e2866;     
+    // --color: var(--ion-color-light);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    
+}
+
+.mensajeError{
+    padding: 10px;
+    border-radius: 7px;
+}
+
+ion-content {
+    --background: url('../../assets/splash.png') no-repeat center center fixed;
+    background-size: cover;
+}
+ion-toolbar {
+    --background: #94ced8;
+}
+
+ion-title{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 15px;
+    color: white;
+}
+
+ion-card-subtitle{
+    padding-top: 8px;
+    font-size: 16px;
+    color: white;
+    margin-left: 10px;
+}
+
+hr {
+    height: 3px;
+    background-color: #29ea63;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  #titulosUsuarios{
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: 16px;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+ion-card{
+    background : #5a3a94;
+    border-radius: 17px;
+}
+
+.item-background-color{
+    --ion-item-background:transparent;
+}
+
+#imgLogin{
+    display: block;
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 130px;
+    padding-top: 15px;
+}
+
+.action-button, .action-button:not(.disabled):active {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    color: rgb(225, 224, 224);
+    box-shadow: none;
+    text-shadow: none;
+    padding: .2rem .7rem;
+    background: transparent;
+    transition: background-color 0.25s;
+    outline: none;
+    margin-top: 15px;
+    width: 330px;
+  }
+  
+.action-button:hover {
+    color: #2fff00;
+    border: 2px solid #3e2866;
+  }
+
+  ion-card-title{
+    text-align: center;
+    color: white;
+  }
+
+  .eyeicon{
+    position: absolute;
+    display: block;
+    bottom: 1.3rem;
+    right: 1rem;
+    cursor: pointer;
+    z-index: 2;
+  }
+
+  img{
+    width: 100px;
+    padding-top: 25px;
+    // padding-bottom: 20px;
+  }
+
+  #usuarios{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  //nuevo
+
+  ion-item{
+    border-radius: 50px;
+    height: 55px;
+    box-shadow: 1px 8px 8px 0px rgba(255, 255, 255, 0.2);
+    --highlight-height: 0px;
+    background: #3e2866;
+
+
+    ion-input{
+        font-size: 14px;
+        --padding-top: 20px;
+        --padding-bottom: 19px;
+        --padding-start: 5px;
+        
+    }
+
+    a{
+        font-size: 17px;
+        letter-spacing: 0px;
+        text-decoration: none;
+    }
+  }

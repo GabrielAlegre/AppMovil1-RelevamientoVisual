@@ -1,0 +1,296 @@
+// MENU PRINCIPAL
+ion-content {
+  --background: #3e2866;
+  overflow: hidden;
+  position: relative;
+  .cosas-lindas-btn {
+    margin-top: 20px;
+    background: url("https://ep00.epimg.net/elpais/imagenes/2018/11/29/album/1543506625_118088_1543566861_album_normal.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    border: 3px solid #5a3a94;
+    text-align: center;
+    margin-bottom: 20px;
+    height: 40vh;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+    h2 {
+      font-size: 2rem;
+      font-weight: bolder;
+      line-height: 14rem;
+      border-radius: 15px;
+      text-shadow: 2px 2px 4px #000;
+      color: #000;
+
+      letter-spacing: .1em;
+      animation: move linear 2000ms infinite;
+    }
+  }
+
+  @keyframes move {
+    0% {
+      text-shadow:
+        4px -4px 0 rgb(150, 150, 150), 
+        3px -3px 0 rgb(150, 150, 150), 
+        2px -2px 0 rgb(150, 150, 150), 
+        1px -1px 0 rgb(150, 150, 150),
+        -4px 4px 0 hsla(180, 100%, 50%, 1), 
+        -3px 3px 0 hsla(180, 100%, 50%, 1), 
+        -2px 2px 0 hsla(180, 100%, 50%, 1), 
+        -1px 1px 0 hsla(180, 100%, 50%, 1)
+      ;
+    }
+    25% {    
+      text-shadow:      
+        -4px -4px 0 hsla(180, 100%, 50%, 1), 
+        -3px -3px 0 hsla(180, 100%, 50%, 1), 
+        -2px -2px 0 hsla(180, 100%, 50%, 1), 
+        -1px -1px 0 hsla(180, 100%, 50%, 1),
+        4px 4px 0 rgb(150, 150, 150), 
+        3px 3px 0 rgb(150, 150, 150), 
+        2px 2px 0 rgb(150, 150, 150), 
+        1px 1px 0 rgb(150, 150, 150)      
+      ;
+    }
+    50% {
+      text-shadow:
+        -4px 4px 0 rgb(150, 150, 150), 
+        -3px 3px 0 rgb(150, 150, 150), 
+        -2px 2px 0 rgb(150, 150, 150), 
+        -1px 1px 0 rgb(150, 150, 150),
+        4px -4px 0 hsla(180, 100%, 50%, 1), 
+        3px -3px 0 hsla(180, 100%, 50%, 1), 
+        2px -2px 0 hsla(180, 100%, 50%, 1), 
+        1px -1px 0 hsla(180, 100%, 50%, 1)
+      ;
+    }
+    75% {
+      text-shadow:
+        4px 4px 0 hsla(180, 100%, 50%, 1), 
+        3px 3px 0 hsla(180, 100%, 50%, 1), 
+        2px 2px 0 hsla(180, 100%, 50%, 1), 
+        1px 1px 0 hsla(180, 100%, 50%, 1),
+        -4px -4px 0 rgb(150, 150, 150), 
+        -3px -3px 0 rgb(150, 150, 150), 
+        -2px -2px 0 rgb(150, 150, 150), 
+        -1px -1px 0 rgb(150, 150, 150)      
+      ;
+    }
+    100% {
+      text-shadow:
+        4px -4px 0 rgb(150, 150, 150), 
+        3px -3px 0 rgb(150, 150, 150), 
+        2px -2px 0 rgb(150, 150, 150), 
+        1px -1px 0 rgb(150, 150, 150),
+        -4px 4px 0 hsla(180, 100%, 50%, 1), 
+        -3px 3px 0 hsla(180, 100%, 50%, 1), 
+        -2px 2px 0 hsla(180, 100%, 50%, 1), 
+        -1px 1px 0 hsla(180, 100%, 50%, 1)
+      ;
+    }  
+  }
+
+  .cosas-lindas-btn:active {
+    transform: scale(0.9);
+    transition: transform 0.3s;
+  }
+  .cosas-feas-btn {
+    background: url(https://p4.wallpaperbetter.com/wallpaper/65/151/789/old-ruin-hallway-building-indoors-hd-wallpaper-preview.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    border: 3px solid #5a3a94;
+    text-align: center;
+    // box-shadow: 2px 2px 3px #000;
+    height: 40vh;
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+    h2 {
+      font-size: 1.8rem;
+      font-weight: bolder;
+      line-height: 14rem;
+      border-radius: 15px;
+      text-shadow: 2px 2px 4px #000;
+      color: black;
+
+      letter-spacing: .1em;
+animation: move linear 2000ms infinite;
+  }
+}
+  .cosas-feas-btn:active {
+    transform: scale(0.9);
+    transition: transform 0.3s;
+  }
+  .btn-danger {
+    width: 15rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #fff;
+    box-shadow: 2px 2px 3px #000;
+  }
+  .btn-danger:active {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+  }
+}
+
+
+
+ion-spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 15rem;
+  height: 15rem;
+}
+
+// MENU COSAS LINDAS Y FEAS
+.btns-cosas-lindas {
+  width: 45%;
+  color: #fff;
+  text-align: center;
+  border: 2px solid #000000;
+  border-radius: 25px;
+  font-weight: bold;
+  height: 60px;
+}
+.btns-cosas-lindas:active {
+  transform: scale(0.9);
+  transition: transform 0.3s;
+}
+.btn-menu-cl {
+  background: rgb(27, 102, 5);
+}
+.btn-sesion-cl {
+  background: rgb(168, 28, 28);
+}
+
+.mis-fotos,
+.grafico {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  color: #000;
+  font-weight: bold;
+  text-align: center;
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.mis-fotos:active,
+.grafico:active {
+  transform: scale(0.9);
+  transition: transform 0.3s;
+}
+.grafico {
+  width: 13rem;
+  background: #5a3a94;
+  color: #fff;
+  border: 3px solid #000000;
+  margin-bottom: 0px;
+}
+
+.btn-tomar-foto {
+  display: block;
+  margin-top: 1.7rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: 18rem;
+  background: url("../../assets/fotografo.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  border: 3px solid rgb(255, 255, 255);
+  text-align: center;
+  h2 {
+    font-size: 1.8rem;
+    font-weight: bolder;
+    line-height: 16rem;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    text-shadow: 3px 3px 8px #000;
+  }
+}
+.btn-tomar-foto:active {
+  transform: scale(0.9);
+  transition: transform 0.3s;
+}
+
+// LISTADO COSAS LINDAS y FEAS
+.img-cosas-lindas {
+  width: 100%;
+  height: 12rem;
+  object-fit: cover;
+}
+
+.btn-like-dislike-cl {
+  --background: #8a69c9;
+  ion-icon {
+    width: 3rem;
+    height: 3rem;
+    margin-left: 40%;
+    
+  }
+}
+
+.like-activado {
+  color: rgb(1, 143, 1);
+}
+
+// PIPE Y BAR CHART
+
+.pipe-chart-container,
+.bar-chart-container {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height: 50vh!important;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+ion-button{
+  margin-top: 5px;
+  box-shadow: 1px 8px 8px 0px rgba(0, 0, 0, 0.7);
+  --background: #5a3a94;     
+  margin-bottom: 20px;
+  
+}
+
+#btnMisFotosMenu{
+  height: 100px;
+  margin: 15px;
+  margin-top: 25px;
+}
+
+#h1TituloMenu{
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 1.5rem;
+  font-weight: bolder;
+  font-family: Comic Sans MS; 
+  color: rgb(77, 212, 212);
+  text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68, 6px 6px #414D68, 7px 7px #414D68, 8px 8px #414D68, 9px 9px #414D68;
+}
+
+#ion-card-headerMisFotosLindas{
+  background-color: rgb(8, 167, 167);}
+
+
+  #ion-card-headerMisFotosFeas{
+    background-color: rgb(133, 32, 32);}
+
+    // #volverAtras{
+
+    //  fon
+    // }
+
+
+    #logoLogIn{
+      margin-right: 15px;
+    }
