@@ -1,4 +1,8 @@
 # Relevamiento Visual
+
+![icon](https://github.com/GabrielAlegre/AppMovil1-RelevamientoVisual/assets/86837104/96c65630-e043-4163-852c-835cb327c14f)
+
+
 Aplicacion movil pensada para usar en un edificio, al ingresar un usuario la pantalla principal permitirá seleccionar un BOTÓN de dos posibles (Cosas LINDAS del edificio, Cosas
 FEAS del edificio). Al ingresar a una sección, nos permitirá tomar una foto y subirla a la nube. Los demás usuarios tienen la opcion de poder ver la foto subida.
 El listado de fotos se muestra ordenado por fecha y de forma DESCENDENTE. Permitiendo votar la cosa más linda y la más fea del edificio (un voto por foto).
